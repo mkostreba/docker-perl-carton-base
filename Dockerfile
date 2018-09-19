@@ -1,5 +1,4 @@
-FROM perl
-MAINTAINER Pedro Melo <melo@simplicidade.org>
+FROM perl-5.24.0
 
 ## Bootstrap what we need
 RUN apt-get update -y \
