@@ -1,12 +1,9 @@
-# Perl base image for Docker #
+# Perl-5.24.0 base image for Docker #
 
 [![](https://images.microbadger.com/badges/image/melopt/perl-carton-base.svg)](https://microbadger.com/images/melopt/perl-carton-base "Get your own image badge on microbadger.com")
 
-This base image uses the [latest perl official
-image](https://hub.docker.com/_/perl/) as a starting point, and adds
-Carton to manage dependencies for your Perl app. This image is updated
-automatically whenever `perl:latest` changes.
-
+This base image uses the Perl-5.24.0 image as a starting point, and adds
+Carton to manage dependencies for your Perl app. This image is NOT updated.
 
 > **Backwards incompatible change**: Dockerfiles don't have support for
 > optional `COPY` instructions. What this means is that we cannot write
